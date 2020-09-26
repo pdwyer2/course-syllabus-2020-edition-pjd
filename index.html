@@ -11,10 +11,52 @@
  formatted into an html document.
 
 -->
-<html>
+<html lang="en">
 <head>
-<link rel="stylesheet" href="courseSyllabus.css">
+<meta charset="UTF-8">
 <title>Page Title</title>
+<style>
+    #titleImageGrid{
+    margin-left: 75px;
+    margin-right: 75px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: center;
+    margin-bottom: 40px;
+}
+#lewisLogo {
+    width: 300px;
+    height: 175px;
+    margin-top: 40px;
+    margin-left: 50px;
+    align-content: center;
+}
+#courseTitle {
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    font-size: 25px;
+}
+#listSpacingInstructor{
+    margin-left: 50px;
+    font-weight: bold;
+}
+#listSpacingCourse{
+    margin-left: 50px;
+    font-weight: bold;
+}
+#instructorTable{
+    table-layout: fixed;
+    border-spacing: 0;
+    width: 80%;
+}
+#courseTable{
+    table-layout: fixed;
+    border-spacing: 0;
+    width: 80%;
+}
+
+</style>
 </head>
 <body>
 
@@ -71,6 +113,7 @@
                 <tr>
                     <th>Course Information</th>
                     <th></th>
+                    
                 </tr>
                 <tr>
                     <td>Course:</td>
@@ -83,6 +126,7 @@
                 <tr>
                     <td>Course description:</td>
                     <td></td>
+                    
                 </tr>
                 <tr>
                     <td colspan="2">Methods, strategies, and tools for implementing software systems, particularly as part
@@ -108,27 +152,25 @@
                 <tr>
                     <td>Student Learning Outcomes:</td>
                     <td></td>
+                    
                 </tr>
                 <tr>
-                    <div id="outcomesList">
-                        <td colspan="2">
-                            <ol id="outcomesListStyle">
-                                <li>compare and contrast various software process models</li>
-                                <li>be able to elicit and analyze requirements of a proposed application</li>
-                                <li>write clear and complete requirements documents</li>
-                                <li>identify the events to which the software must respond and document them as a set of use cases</li>
-                                <li>identify security issues in a software projects requirements and design</li>
-                                <li>use techniques to produce self-documenting code</li>
-                                <li>use coding strategy to produce secure code</li>
-                                <li>draw diagrams to model workflows</li>
-                                <li>develop and use diagrams to model classes and the interaction of classes</li>
-                                <li>understand and practice unit testing and functional testing</li>
-                                <li>understand the techniques used to test non-functional requirements such as performance and security</li>
-                                <li>develop a project schedule</li>
-                            </ol>
-                        </td>
-                        <td></td>
-                    </div>
+                    <td colspan="2">
+                        <ol id="outcomesListStyle">
+                            <li>compare and contrast various software process models</li>
+                            <li>be able to elicit and analyze requirements of a proposed application</li>
+                            <li>write clear and complete requirements documents</li>
+                            <li>identify the events to which the software must respond and document them as a set of use cases</li>
+                            <li>identify security issues in a software projects requirements and design</li>
+                            <li>use techniques to produce self-documenting code</li>
+                            <li>use coding strategy to produce secure code</li>
+                            <li>draw diagrams to model workflows</li>
+                            <li>develop and use diagrams to model classes and the interaction of classes</li>
+                            <li>understand and practice unit testing and functional testing</li>
+                            <li>understand the techniques used to test non-functional requirements such as performance and security</li>
+                            <li>develop a project schedule</li>
+                        </ol>
+                    </td>
                 </tr>
             </table>
         </div>
