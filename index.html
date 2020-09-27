@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!--
+
+ Author: Payton Dwyer
+
+ Class:  Software Engineering
+
+ Project: Lab 2 / Course Syllabus
+
+ Description: This is the first page of our course syllabus
+ formatted into an html document.
+
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Page Title</title>
+<style>
+    #titleImageGrid{
+    margin-left: 75px;
+    margin-right: 75px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: center;
+    margin-bottom: 40px;
+}
+#lewisLogo {
+    width: 300px;
+    height: 175px;
+    margin-top: 40px;
+    margin-left: 50px;
+    align-content: center;
+}
+#courseTitle {
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    font-size: 25px;
+}
+#listSpacingInstructor{
+    margin-left: 50px;
+    font-weight: bold;
+}
+#listSpacingCourse{
+    margin-left: 50px;
+    font-weight: bold;
+}
+#instructorTable{
+    table-layout: fixed;
+    border-spacing: 0;
+    width: 80%;
+}
+#courseTable{
+    table-layout: fixed;
+    border-spacing: 0;
+    width: 80%;
+}
+
+</style>
+</head>
+<body>
+
+<div id="titleImageGrid">    
+    <div>
+        <img id="lewisLogo" src="lewisU.png" alt = "Lewis University Logo">
+    </div>
+    <div id="courseTitle">
+        <p>  <b>Software Engineering - 44000  <br> 
+        Syllabus </b> <br> Fall Semester 2020</p>
+       
+    </div>
+</div>
+
+<ol type="I">
+    <li>
+        <div id="listSpacingInstructor">
+            <table id = "instructorTable">
+                <tr>
+                    <th>Instructor Information</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Instructor's Name:</td>
+                    <td>Eric Pogue</td>
+                </tr>
+                <tr>
+                    <td>Lewis office location:</td>
+                    <td>AS-132-A</td>
+                </tr>
+                <tr>
+                    <td>Office hours:</td>
+                    <td>MWF 1-2pm CT by appointment</td>
+                </tr>
+                <tr>
+                    <td>Appointments:</td>
+                    <td>Appointments can be requested via email</td>
+                </tr>
+                <tr>
+                    <td>Lewis Phone Number:</td>
+                    <td>563-209-7280 (mobile)</td>
+                </tr>
+                <tr>
+                    <td>Lewis email address:</td>
+                    <td>epogue@lewisu.edu</td>
+                </tr>
+            </table>
+        </div>
+    </li>
+
+    <li>
+        <div id="listSpacingCourse">
+            <table id = "courseTable">
+                <tr>
+                    <th>Course Information</th>
+                    <th></th>
+                    
+                </tr>
+                <tr>
+                    <td>Course:</td>
+                    <td>Software Engineering (CPSC-44000-LT1)</td>
+                </tr>
+                <tr>
+                    <td>Course Credit Hours:</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Course description:</td>
+                    <td></td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2">Methods, strategies, and tools for implementing software systems, particularly as part
+                        of a development team. Topics include the software development life cycle, Unified
+                        Modeling Language, software testing techniques, software security, open-source
+                        development, requirements gathering and documentation, maintenance, and basic
+                        software project management. <br>
+                        Prerequisites: CPSC-24500 Object-Oriented Programming
+                    </td>
+                </tr>
+                <tr>
+                    <td>Course meeting times:</td>
+                    <td>MWF 12-12:50am CT from August 31 through December 12<sup>th</sup></td>
+                </tr>
+                <tr>
+                    <td>Meeting location:</td>
+                    <td>AS 104A</td>
+                </tr>
+                <tr>
+                    <td>Course final:</td>
+                    <td>Monday, December 14th from 1:30 to 3:30pm CT</td>
+                </tr>
+                <tr>
+                    <td>Student Learning Outcomes:</td>
+                    <td></td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <ol id="outcomesListStyle">
+                            <li>compare and contrast various software process models</li>
+                            <li>be able to elicit and analyze requirements of a proposed application</li>
+                            <li>write clear and complete requirements documents</li>
+                            <li>identify the events to which the software must respond and document them as a set of use cases</li>
+                            <li>identify security issues in a software projects requirements and design</li>
+                            <li>use techniques to produce self-documenting code</li>
+                            <li>use coding strategy to produce secure code</li>
+                            <li>draw diagrams to model workflows</li>
+                            <li>develop and use diagrams to model classes and the interaction of classes</li>
+                            <li>understand and practice unit testing and functional testing</li>
+                            <li>understand the techniques used to test non-functional requirements such as performance and security</li>
+                            <li>develop a project schedule</li>
+                        </ol>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </li>
+</ol>
+
+</body>
+</html>
